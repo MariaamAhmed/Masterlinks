@@ -4,7 +4,12 @@ body{
     text-align: center;
     background-image: url("backgroundimg.jpg");
     margin:0px;
-  
+  }
+  .div1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 125px;
+    justify-content: space-between;
   }
   
   h1
@@ -15,10 +20,7 @@ font-size:80px;
 color:#D4ECDD;
 
   }
-  table{
-      margin-left: 125px;
-      padding: 15px;
-  }
+  
   p{
       margin: 20px 10px;
       font-size:large;
@@ -36,6 +38,8 @@ color:#D4ECDD;
   border:solid 2px  #6B0848;
   border-radius: 5px;
   font-size: large;
+  margin-top: 15px;
+ 
 }
 
 
