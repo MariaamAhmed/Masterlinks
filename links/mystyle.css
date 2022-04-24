@@ -1,0 +1,61 @@
+
+body{
+    background-color: #112031 ;
+    text-align: center;
+    margin:0px;
+  }
+  
+  h1
+  {
+margin:50px;
+font-family: 'Ms Madi', cursive;
+font-family: 'Permanent Marker', cursive;
+font-size:50px;
+color:#D4ECDD;
+
+  }
+  table{
+      margin-left: 125px;
+      padding: 15px;
+  }
+  p{
+      margin: 20px 10px;
+      font-size:large;
+      color:#D5EEFF ;
+       line-break:normal;
+       font-family: 'Anybody', cursive;
+       font-size: 20px;
+  }
+  button
+{
+  height: 50px; 
+  width:150px;
+  background-color:#D4ECDD;
+  color: #345B63;
+  border:solid 2px  #345B63;
+  border-radius: 5px;
+  font-size: large;
+}
+
+  .lineUp {
+      animation: 2s anim-lineUp ease-out infinite;
+    }
+    @keyframes anim-lineUp {
+      0% {
+        opacity: 0;
+        transform: translateY(80%);
+      }
+      20% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+   
+  
